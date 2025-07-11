@@ -27,11 +27,11 @@ export default function PensaoPorMorte() {
                     Veja quem tem direito
                 </h1>
                 <div className="flex flex-wrap justify-center gap-6">
-                    <LPCard title="Filhos" description="" />
-                    <LPCard title="Cônjuges" description="quando casados" />
-                    <LPCard title="Companheiro" description="quando em União Estável" />
-                    <LPCard title="Pais" description="na ausência do cônjuge/companheiro e filhos" />
-                    <LPCard title="Irmãos" description="na falta dos anteriores" />
+                    <LPCard title="Filhos" description="Filhos menores de 21 anos têm direito sem necessidade de comprovar dependência econômica. Filhos inválidos ou com deficiência (intelectual, mental ou grave) podem receber independentemente da idade, desde que a condição tenha surgido antes dos 21 anos ou da emancipação." />
+                    <LPCard title="Cônjuges" description="Cônjuges são aqueles casados oficialmente no papel, com certidão de casamento registrada. Nessa condição, a lei os reconhece como dependentes preferenciais para fins de pensão por morte." />
+                    <LPCard title="Companheiro" description="Quem viveu em União Estável, mesmo sem formalizar no papel, também tem direito à pensão por morte. A lei reconhece o companheiro como dependente, desde que a união possa ser comprovada por documentos ou testemunhas." />
+                    <LPCard title="Pais" description="Os pais só têm direito à pensão por morte se o falecido não tiver deixado cônjuge, companheiro ou filhos. Além disso, é preciso comprovar dependência econômica total em relação ao segurado. Ou seja, o direito dos pais depende da situação e das provas apresentadas." />
+                    <LPCard title="Irmãos" description="Os irmãos só têm direito à pensão por morte se o falecido não tiver deixado cônjuge, companheiro, filhos ou pais. Nesse caso, é necessário comprovar que dependiam economicamente do segurado, de forma total." />
                 </div>
                 <WppButton
                     title="Converse com um especialista"
@@ -40,19 +40,13 @@ export default function PensaoPorMorte() {
             <LPDuvidas.Root>
                 <LPDuvidas.Item value="item-1" title="Eu não sei por onde começar. Tem alguém para me orientar?">
                     <p>
-                    Our flagship product combines cutting-edge technology with sleek design...
-                    </p>
-                    <p>
-                    Key features include advanced processing capabilities, and an intuitive interface...
+                    Nesse caso, o ideal é entrar em contato com uma advogada especialista, que vai analisar sua situação e te orientar da forma correta, com segurança e clareza.
                     </p>
                 </LPDuvidas.Item>
 
                 <LPDuvidas.Item value="item-2" title="Eu não tenho como comprovar a União Estável. Como eu faço?">
                     <p>
-                    We offer worldwide shipping through trusted courier partners...
-                    </p>
-                    <p>
-                    All orders are carefully packaged and fully insured...
+                    O ideal é conversar com uma advogada especializada, que vai analisar seu caso e te orientar sobre as melhores formas de reunir as provas e garantir seu direito à pensão por morte.
                     </p>
                 </LPDuvidas.Item>
 
@@ -64,7 +58,7 @@ export default function PensaoPorMorte() {
                     Our hassle-free return process includes free return shipping...
                     </p>
                 </LPDuvidas.Item>
-                <LPDuvidas.Item value="item-3" title="Meu filho e eu podemos receber?">
+                <LPDuvidas.Item value="item-4" title="Meu filho e eu podemos receber?">
                     <p>
                     We stand behind our products with a comprehensive 30-day return policy...
                     </p>
@@ -72,7 +66,7 @@ export default function PensaoPorMorte() {
                     Our hassle-free return process includes free return shipping...
                     </p>
                 </LPDuvidas.Item>
-                <LPDuvidas.Item value="item-3" title="Posso receber duas pensões do INSS?">
+                <LPDuvidas.Item value="item-5" title="Posso receber duas pensões do INSS?">
                     <p>
                     We stand behind our products with a comprehensive 30-day return policy...
                     </p>
@@ -80,7 +74,7 @@ export default function PensaoPorMorte() {
                     Our hassle-free return process includes free return shipping...
                     </p>
                 </LPDuvidas.Item>
-                <LPDuvidas.Item value="item-3" title="Meu esposo/companheiro nunca trabalhou de carteira assinada, será que eu tenho direito?">
+                <LPDuvidas.Item value="item-6" title="Meu esposo/companheiro nunca trabalhou de carteira assinada, será que eu tenho direito?">
                     <p>
                     We stand behind our products with a comprehensive 30-day return policy...
                     </p>

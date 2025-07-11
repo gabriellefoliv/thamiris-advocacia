@@ -22,7 +22,7 @@ export function LPCallout({ image, title, description }: LPCalloutProps) {
       </div>
       <div className="text-center md:text-left space-y-2">
         <h1 className="text-2xl font-semibold text-gray-800">{title}</h1>
-        <p className="text-gray-600 text-base leading-relaxed">{description}</p>
+        <p className="text-black text-base leading-relaxed">{description}</p>
       </div>
     </div>
       <WppButton

@@ -8,7 +8,7 @@ type LPCardProps = {
 
 export function LPCard({ title, description }: LPCardProps) {
   return (
-    <Card className="w-full max-w-xs flex flex-col rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+    <Card className="w-full max-w-sm transition-transform duration-300 ease-in-out hover:scale-[1.03] hover:shadow-xl">
       <CardHeader className="flex">
         <UserRound className="h-6 w-6 text-gray-400" />
         <CardTitle className="text-lg font-semibold text-gray-800">
@@ -16,7 +16,7 @@ export function LPCard({ title, description }: LPCardProps) {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="text-gray-600 text-sm leading-relaxed">{description || ""}</p>
+        <p className="text-black text-sm leading-relaxed">{description || ""}</p>
       </CardContent>
     </Card>
   );
