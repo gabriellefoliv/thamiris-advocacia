@@ -12,9 +12,6 @@ export default function PensaoPorMorte() {
                 officeName="Thamiris F. de Oliveira Advocacia"
                 description="Escritório Previdenciário Digital (INSS)"
             />
-            <p className="text-center font-bold text-2xl">
-                Nosso escritório irá analisar o seu caso com toda a cautela e atenção que ele merece, verificando se você tem direito à pensão por morte. Não deixe seu direito de lado - e muito menos o seu dinheiro nas mãos do governo.
-            </p>
             <div className="bg-gray-50 py-10 px-4">
                 <LPCallout
                     image="/tombstone.png"
@@ -22,7 +19,10 @@ export default function PensaoPorMorte() {
                     description="Quando uma pessoa falece e deixa dependentes, é possível solicitar a pensão por morte para garantir a segurança financeira daqueles que ficaram."
                 />
             </div>
-            <div className="w-full mx-auto px-4">
+            <p className="text-center font-bold text-2xl">
+                Nosso escritório irá analisar o seu caso com toda a cautela e atenção que ele merece, verificando se você tem direito à pensão por morte. Não deixe seu direito de lado - e muito menos o seu dinheiro nas mãos do governo.
+            </p>
+            <div className="w-full mx-auto mt-6 px-4">
                 <h1 className="text-center text-2xl font-bold mb-6">
                     Veja quem tem direito
                 </h1>
