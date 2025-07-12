@@ -15,7 +15,7 @@ const cinzelDecorative = Cinzel_Decorative({
 
 export const metadata: Metadata = {
   title: "Thamiris F. de Oliveira - Advocacia Previdenciária",
-  description: "Quando uma pessoa falece e deixa dependentes, é possível solicitar a pensão por morte para garantir a segurança financeira daqueles que ficaram.",
+  description: "Escritório especializado em Direito Previdenciário Digital (INSS). Consultoria e assessoria jurídica para garantir seus direitos.",
 };
 
 export default function RootLayout({

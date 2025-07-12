@@ -14,8 +14,8 @@ const cinzelDecorative = Cinzel_Decorative({
 });
 
 export const metadata: Metadata = {
-  title: "Pensão por Morte - Thamiris Advocacia",
-  description: "Escritório de Advocacia Thamiris Ferreira",
+  title: "Pensão por Morte - Thamiris F. de Oliveira Advocacia",
+  description: "Perdeu alguém querido? Não perca também o seu direito à pensão por morte. Fale com quem entende do assunto!",
 };
 
 export default function RootLayout({

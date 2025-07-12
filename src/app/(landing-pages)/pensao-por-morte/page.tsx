@@ -19,7 +19,7 @@ export default function PensaoPorMorte() {
                 <LPCallout
                     image="/tombstone.png"
                     title="Pensão por morte"
-                    description="Perdeu alguém querido? Não perca também o seu direito à pensão por morte. Fale com quem entende do assunto!"
+                    description="Quando uma pessoa falece e deixa dependentes, é possível solicitar a pensão por morte para garantir a segurança financeira daqueles que ficaram."
                 />
             </div>
             <div className="w-full mx-auto px-4">
