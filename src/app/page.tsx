@@ -6,15 +6,12 @@ import WppButton from "@/components/WppButton"
 
 export default function Home() {
     return (
-        <div className="min-h-screen w-full flex flex-col items-center px-4 sm:px-8 lg:px-16 gap-12 overflow-hidden">
+        <div className="min-h-screen w-full flex flex-col items-center px-4 sm:px-8 lg:px-16 gap-10 overflow-hidden">
            <LPBanner
-                backgroundImageUrl="/advocacia-4k.jpg"
+                backgroundImageUrl="/advocacia-6k.jpg"
                 officeName="Thamiris F. de Oliveira Advocacia"
                 description="Escritório Previdenciário Digital (INSS)"
             />
-            <p className="text-center font-bold text-2xl">
-                Nosso escritório irá analisar o seu caso com toda a cautela e atenção que ele merece, verificando se você tem direito à pensão por morte. Não deixe seu direito de lado - e muito menos o seu dinheiro nas mãos do governo.
-            </p>
             <div className="bg-gray-50 py-10 px-4">
                 <LPCallout
                     image="/tombstone.png"
@@ -22,7 +19,10 @@ export default function Home() {
                     description="Quando uma pessoa falece e deixa dependentes, é possível solicitar a pensão por morte para garantir a segurança financeira daqueles que ficaram."
                 />
             </div>
-            <div className="w-full mx-auto px-4">
+            <p className="text-center font-bold text-2xl">
+                Nosso escritório irá analisar o seu caso com toda a cautela e atenção que ele merece, verificando se você tem direito à pensão por morte. Não deixe seu direito de lado - e muito menos o seu dinheiro nas mãos do governo.
+            </p>
+            <div className="w-full mt-6 mx-auto px-4">
                 <h1 className="text-center text-2xl font-bold mb-6">
                     Veja quem tem direito
                 </h1>
@@ -52,34 +52,22 @@ export default function Home() {
 
                 <LPDuvidas.Item value="item-3" title="Meu pedido foi negado há muito tempo, será que ainda tenho direito?">
                     <p>
-                    We stand behind our products with a comprehensive 30-day return policy...
-                    </p>
-                    <p>
-                    Our hassle-free return process includes free return shipping...
+                    Na grande maioria dos casos ainda é possível reverter a situação. Mas atenção: é de suma importância consultar uma advogada o quanto antes, pois prazos podem estar correndo e cada caso exige uma análise específica.
                     </p>
                 </LPDuvidas.Item>
                 <LPDuvidas.Item value="item-4" title="Meu filho e eu podemos receber?">
                     <p>
-                    We stand behind our products with a comprehensive 30-day return policy...
-                    </p>
-                    <p>
-                    Our hassle-free return process includes free return shipping...
+                    Depende do caso, mas se houver direito, sim, é possível que tanto você quanto seu filho recebam. Não se preocupe em perder a pensão do seu filho — quando há previsão legal, ambos podem receber sem prejuízo um do outro.
                     </p>
                 </LPDuvidas.Item>
                 <LPDuvidas.Item value="item-5" title="Posso receber duas pensões do INSS?">
                     <p>
-                    We stand behind our products with a comprehensive 30-day return policy...
-                    </p>
-                    <p>
-                    Our hassle-free return process includes free return shipping...
+                    Não é permitido receber duas pensões por morte pelo INSS ao mesmo tempo. Nesses casos, o INSS deve conceder apenas a mais vantajosa, ou seja, a que garante o maior valor ao dependente.
                     </p>
                 </LPDuvidas.Item>
                 <LPDuvidas.Item value="item-6" title="Meu esposo/companheiro nunca trabalhou de carteira assinada, será que eu tenho direito?">
                     <p>
-                    We stand behind our products with a comprehensive 30-day return policy...
-                    </p>
-                    <p>
-                    Our hassle-free return process includes free return shipping...
+                    Infelizmente, se seu esposo nunca contribuiu para o INSS, não há direito à pensão por morte. Mas é sempre bom consultar uma advogada, pois se houver alguma contribuição registrada no CNIS, mesmo que poucas, pode ser possível sim garantir o benefício.
                     </p>
                 </LPDuvidas.Item>
             </LPDuvidas.Root>
