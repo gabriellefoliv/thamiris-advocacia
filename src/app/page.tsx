@@ -1,42 +1,52 @@
+import { Footer } from "@/components/Footer"
 import { LPBanner } from "@/components/LPBanner"
 import { LPCallout } from "@/components/LPCallout"
 import { LPCard } from "@/components/LPCard"
 import { LPDuvidas } from "@/components/LPDuvidas"
+import { MotionWrapper } from "@/components/MotionWrapper"
 import WppButton from "@/components/WppButton"
 
 export default function Home() {
     return (
-        <div className="min-h-screen w-full flex flex-col items-center px-4 sm:px-8 lg:px-16 gap-10 overflow-hidden">
+        <div className="min-h-screen w-full flex flex-col items-center px-4 sm:px-8 lg:px-16 gap-12 overflow-hidden">
            <LPBanner
                 backgroundImageUrl="/advocacia-6k.jpg"
                 officeName="Thamiris F. de Oliveira Advocacia"
                 description="Escritório Previdenciário Digital (INSS)"
             />
-            <div className="bg-gray-50 py-10 px-4">
-                <LPCallout
-                    image="/tombstone.png"
-                    title="Pensão por morte"
-                    description="Quando uma pessoa falece e deixa dependentes, é possível solicitar a pensão por morte para garantir a segurança financeira daqueles que ficaram."
-                />
-            </div>
-            <p className="text-center font-bold text-2xl">
-                Nosso escritório irá analisar o seu caso com toda a cautela e atenção que ele merece, verificando se você tem direito à pensão por morte. Não deixe seu direito de lado - e muito menos o seu dinheiro nas mãos do governo.
-            </p>
-            <div className="w-full mt-6 mx-auto px-4">
-                <h1 className="text-center text-2xl font-bold mb-6">
-                    Veja quem tem direito
-                </h1>
-                <div className="flex flex-wrap justify-center gap-6">
-                    <LPCard title="Filhos" description="Filhos menores de 21 anos têm direito sem necessidade de comprovar dependência econômica. Filhos inválidos ou com deficiência (intelectual, mental ou grave) podem receber independentemente da idade, desde que a condição tenha surgido antes dos 21 anos ou da emancipação." />
-                    <LPCard title="Cônjuges" description="Cônjuges são aqueles casados oficialmente no papel, com certidão de casamento registrada. Nessa condição, a lei os reconhece como dependentes preferenciais para fins de pensão por morte." />
-                    <LPCard title="Companheiro" description="Quem viveu em União Estável, mesmo sem formalizar no papel, também tem direito à pensão por morte. A lei reconhece o companheiro como dependente, desde que a união possa ser comprovada por documentos ou testemunhas." />
-                    <LPCard title="Pais" description="Os pais só têm direito à pensão por morte se o falecido não tiver deixado cônjuge, companheiro ou filhos. Além disso, é preciso comprovar dependência econômica total em relação ao segurado. Ou seja, o direito dos pais depende da situação e das provas apresentadas." />
-                    <LPCard title="Irmãos" description="Os irmãos só têm direito à pensão por morte se o falecido não tiver deixado cônjuge, companheiro, filhos ou pais. Nesse caso, é necessário comprovar que dependiam economicamente do segurado, de forma total." />
+            <MotionWrapper>
+                <div className="bg-gray-50 py-10 px-4">
+                    <LPCallout
+                        image="/tombstone.png"
+                        title="Pensão por morte"
+                        description="Quando uma pessoa falece e deixa dependentes, é possível solicitar a pensão por morte para garantir a segurança financeira daqueles que ficaram."
+                    />
                 </div>
-                <WppButton
-                    title="Converse com um especialista"
-                />
-            </div>
+            </MotionWrapper>
+            <MotionWrapper>
+                <p className="text-center font-bold text-2xl">
+                    Nosso escritório irá analisar o seu caso com toda a cautela e atenção que ele merece, verificando se você tem direito à pensão por morte. Não deixe seu direito de lado - e muito menos o seu dinheiro nas mãos do governo.
+                </p>
+            </MotionWrapper>
+            <MotionWrapper>
+                <div className="w-full mx-auto mt-6 px-4">
+                    <h1 className="text-center text-2xl font-bold mb-6">
+                        Veja quem tem direito
+                    </h1>
+                    <MotionWrapper>
+                        <div className="flex flex-wrap justify-center gap-6">
+                            <LPCard title="Filhos" description="Filhos menores de 21 anos têm direito sem necessidade de comprovar dependência econômica. Filhos inválidos ou com deficiência (intelectual, mental ou grave) podem receber independentemente da idade, desde que a condição tenha surgido antes dos 21 anos ou da emancipação." />
+                            <LPCard title="Cônjuges" description="Cônjuges são aqueles casados oficialmente no papel, com certidão de casamento registrada. Nessa condição, a lei os reconhece como dependentes preferenciais para fins de pensão por morte." />
+                            <LPCard title="Companheiro" description="Quem viveu em União Estável, mesmo sem formalizar no papel, também tem direito à pensão por morte. A lei reconhece o companheiro como dependente, desde que a união possa ser comprovada por documentos ou testemunhas." />
+                            <LPCard title="Pais" description="Os pais só têm direito à pensão por morte se o falecido não tiver deixado cônjuge, companheiro ou filhos. Além disso, é preciso comprovar dependência econômica total em relação ao segurado. Ou seja, o direito dos pais depende da situação e das provas apresentadas." />
+                            <LPCard title="Irmãos" description="Os irmãos só têm direito à pensão por morte se o falecido não tiver deixado cônjuge, companheiro, filhos ou pais. Nesse caso, é necessário comprovar que dependiam economicamente do segurado, de forma total." />
+                        </div>
+                    </MotionWrapper>
+                    <WppButton
+                        title="Converse com um especialista"
+                    />
+                </div>
+            </MotionWrapper>
             <LPDuvidas.Root>
                 <LPDuvidas.Item value="item-1" title="Eu não sei por onde começar. Tem alguém para me orientar?">
                     <p>
@@ -71,6 +81,8 @@ export default function Home() {
                     </p>
                 </LPDuvidas.Item>
             </LPDuvidas.Root>
+
+            <Footer/>
 
         </div>
     )
