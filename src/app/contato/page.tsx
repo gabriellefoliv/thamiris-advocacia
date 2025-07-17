@@ -38,7 +38,7 @@ export default function Contato() {
             className="w-full h-auto rounded-lg object-contain"
             priority
           />
-          <h1 className="mt-6 text-2xl font-serif font-semibold text-[#EFBF04] text-center md:text-left">
+          <h1 className="mt-6 text-2xl font-semibold text-[#EFBF04] text-center md:text-left">
             Vamos conversar?
           </h1>
           <p className="mt-2 text-gray-800 text-center md:text-left leading-relaxed">
@@ -48,7 +48,7 @@ export default function Contato() {
 
         {/* Formulário */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-3xl font-serif font-semibold text-[#EFBF04] mb-6 text-center md:text-left">
+          <h2 className="text-3xl font-semibold text-[#EFBF04] mb-6 text-center md:text-left">
             Entre em Contato
           </h2>
 

@@ -46,7 +46,7 @@ export function HeroSection() {
       />
 
       {/* Conteúdo principal */}
-      <div className="relative pt-20 z-30 flex flex-col md:flex-row items-center justify-center h-full text-center px-6 gap-8 max-w-7xl mx-auto">
+      <div className="relative mt-4 pt-16 z-30 flex flex-col md:flex-row items-center justify-center h-full text-center px-6 gap-8 max-w-7xl mx-auto">
         {/* Logo sempre visível, centralizada */}
         <div className="max-w-xs md:max-w-sm lg:max-w-md flex-shrink-0">
           <Image
@@ -61,7 +61,7 @@ export function HeroSection() {
 
         {/* Texto + botões - escondido em telas muito pequenas */}
         <div className="hidden sm:flex flex-col items-center md:items-start text-center md:text-left max-w-xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-semibold drop-shadow-xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold drop-shadow-xl">
             Escritório de Advocacia Digital
           </h1>
           <p className="mt-4 text-base sm:text-lg md:text-xl max-w-prose">
@@ -79,7 +79,7 @@ export function HeroSection() {
               target="_blank"
               className="border border-white text-white px-6 py-3 rounded-xl text-center hover:bg-white hover:text-black transition"
             >
-              Fale com um Especialista
+              Fale conosco
             </Link>
           </div>
         </div>

@@ -22,7 +22,7 @@ export function Differentials() {
   return (
     <section className="bg-white text-black py-16 px-6 -mt-8">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-serif font-semibold mb-12">
+        <h2 className="text-3xl font-semibold mb-12">
           Por que nos escolher?
         </h2>
         <div className="grid md:grid-cols-3 gap-10">

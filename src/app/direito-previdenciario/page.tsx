@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function DireitoPrevidenciario() {
   return (
     <main className="min-h-screen bg-white text-black px-6 py-16 max-w-7xl mx-auto -mt-16">
-      <h1 className="text-4xl font-serif font-semibold text-[#EFBF04] mb-12 text-center">
+      <h1 className="text-4xl font-semibold text-[#EFBF04] mb-12 text-center">
         Conheça o Direito Previdenciário
       </h1>
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function AboutSection() {
   return (
-    <section className="bg-[#f9f9f9] text-black py-20 px-6">
+    <section className="bg-[#f9f9f9] text-black py-20 px-6 mt-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Texto */}
         <div className="md:w-1/2 text-center md:text-left">

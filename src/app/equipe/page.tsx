@@ -25,8 +25,8 @@ const equipeData: Membro[] = [
 export default function Equipe() {
   return (
     <section className="max-w-7xl mx-auto -mt-20 px-6 py-20">
-      <h1 className="text-4xl font-serif font-semibold text-[#EFBF04] mb-12 text-center">
-        Entre em contato com um de nossos advogados
+      <h1 className="text-4xl font-semibold text-[#EFBF04] mb-12 text-center">
+        Fale comigo agora e garanta já o seu benefício previdenciário
       </h1>
 
       <div className="flex justify-center">

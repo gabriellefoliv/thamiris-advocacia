@@ -19,7 +19,7 @@ export function EquipeCard({ Img, Nome, Atuacao, Telefone, hrefWpp, hrefEmail }:
         className="w-48 h-48 rounded-lg object-cover mb-4"
       />
       
-      <h3 className="text-xl font-serif font-semibold text-[#EFBF04] mb-1 text-center">{Nome}</h3>
+      <h3 className="text-xl font-semibold text-[#EFBF04] mb-1 text-center">{Nome}</h3>
       
       <p className="text-center text-gray-800 font-medium mb-2">
         <span className="font-bold">Atuação: </span>{Atuacao}

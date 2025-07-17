@@ -1,4 +1,4 @@
-import { InstagramIcon, Mail } from "lucide-react";
+import { InstagramIcon, Mail, Phone } from "lucide-react";
 
 export function Footer() {
   return (
@@ -20,6 +20,15 @@ export function Footer() {
           </h4>
 
           <div className="flex justify-center md:justify-end gap-4">
+            <a
+              href="https://wa.me/message/V72SURNAJ3EKD1"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir conversa no WhatsApp"
+              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-red-200 transition duration-200"
+            >
+              <Phone className="w-6 h-6 text-[#EFBF04]" />
+            </a>
             <a
               href="https://mail.google.com/mail/?view=cm&to=thamirisferreiraadv@gmail.com"
               target="_blank"

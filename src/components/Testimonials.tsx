@@ -26,7 +26,7 @@ export function Testimonials() {
   return (
     <section className="bg-black text-white py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-serif font-semibold mb-12">Depoimentos</h2>
+        <h2 className="text-3xl font-semibold mb-12">Depoimentos</h2>
         {/* <div className="grid md:grid-cols-2 gap-8">
           {testimonials.map((item, i) => (
             <div key={i} className="bg-white/10 p-6 rounded-xl shadow-md">

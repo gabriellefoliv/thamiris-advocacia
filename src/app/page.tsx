@@ -9,7 +9,7 @@ export default function Home() {
         <div className="w-full">
             <Differentials/>
             <WppButton
-                title="Fale com um advogado"
+                title="Fale conosco agora"
             />
             <AboutSection/>
             <Commitments/>
