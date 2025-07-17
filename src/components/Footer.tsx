@@ -15,28 +15,28 @@ export function Footer() {
 
         {/* Seção de contato */}
         <div className="w-full md:w-auto text-center md:text-right space-y-4">
-          <h4 className="text-red-500 font-bold text-lg uppercase tracking-wide">
+          <h4 className="text-[#EFBF04] font-bold text-lg uppercase tracking-wide">
             Entre em Contato
           </h4>
 
           <div className="flex justify-center md:justify-end gap-4">
             <a
-              href="mailto:thamirisfoliveira3@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&to=thamirisferreiraadv@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full bg-red-100 hover:bg-red-200 transition duration-200"
+              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-red-200 transition duration-200"
               aria-label="Email"
             >
-              <Mail className="w-6 h-6 text-red-500" />
+              <Mail className="w-6 h-6 text-[#EFBF04]" />
             </a>
             <a
               href="https://www.instagram.com/thamirisferreiraadv/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full bg-red-100 hover:bg-red-200 transition duration-200"
+              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-red-200 transition duration-200"
               aria-label="Instagram"
             >
-              <InstagramIcon className="w-6 h-6 text-red-500" />
+              <InstagramIcon className="w-6 h-6 text-[#EFBF04]" />
             </a>
           </div>
         </div>

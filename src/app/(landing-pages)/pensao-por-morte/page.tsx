@@ -1,8 +1,8 @@
 import { Footer } from "@/components/Footer"
-import { LPBanner } from "@/components/LPBanner"
-import { LPCallout } from "@/components/LPCallout"
-import { LPCard } from "@/components/LPCard"
-import { LPDuvidas } from "@/components/LPDuvidas"
+import { LPBanner } from "@/components/landing-pages/LPBanner"
+import { LPCallout } from "@/components/landing-pages/LPCallout"
+import { LPCard } from "@/components/landing-pages/LPCard"
+import { LPDuvidas } from "@/components/landing-pages/LPDuvidas"
 import { MotionWrapper } from "@/components/MotionWrapper"
 import WppButton from "@/components/WppButton"
 
