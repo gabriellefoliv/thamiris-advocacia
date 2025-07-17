@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WppButton from "./WppButton";
+import WppButton from "../WppButton";
 
 type LPCalloutProps = {
   image: string;

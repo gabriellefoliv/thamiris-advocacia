@@ -1,7 +1,5 @@
 import { ReactNode } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import WppButton from "./WppButton";
+import WppButton from "../WppButton";
 
 type LPBannerProps = {
   backgroundImageUrl: string;
