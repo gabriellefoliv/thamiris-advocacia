@@ -1,4 +1,5 @@
 import { InstagramIcon, Mail, Phone } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -8,7 +9,8 @@ export function Footer() {
         {/* Seção de links */}
         <div className="w-full md:w-auto text-center md:text-left space-y-2">
           <h4 className="text-gray-500 font-semibold text-lg tracking-wide">
-            Todos os direitos reservados <br/>Ⓒ Desenvolvido por Gabrielle Oliveira
+            Todos os direitos reservados <br/>Ⓒ Desenvolvido por <a className="underline text-gray-600" href="https://gabicodes.com" target="_blank"
+              rel="noopener noreferrer">Gabrielle Oliveira</a>
           </h4>
           
         </div>
@@ -25,15 +27,15 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Abrir conversa no WhatsApp"
-              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-red-200 transition duration-200"
+              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-yellow-200 transition duration-200"
             >
-              <Phone className="w-6 h-6 text-[#EFBF04]" />
+              <FaWhatsapp className="w-6 h-6 text-[#EFBF04]" />
             </a>
             <a
               href="https://mail.google.com/mail/?view=cm&to=thamirisferreiraadv@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-red-200 transition duration-200"
+              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-yellow-200 transition duration-200"
               aria-label="Email"
             >
               <Mail className="w-6 h-6 text-[#EFBF04]" />
@@ -42,7 +44,7 @@ export function Footer() {
               href="https://www.instagram.com/thamirisferreiraadv/"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-red-200 transition duration-200"
+              className="p-2 rounded-full bg-[#FFD700]/25 hover:bg-yellow-200 transition duration-200"
               aria-label="Instagram"
             >
               <InstagramIcon className="w-6 h-6 text-[#EFBF04]" />

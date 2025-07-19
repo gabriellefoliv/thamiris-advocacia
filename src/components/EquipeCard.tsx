@@ -1,4 +1,5 @@
 import { LetterText, Mail, Phone, Text } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 interface CardProps {
   Img: string;
@@ -36,7 +37,7 @@ export function EquipeCard({ Img, Nome, Atuacao, Telefone, hrefWpp, hrefEmail }:
           rel="noopener noreferrer"
           className="flex items-center justify-center bg-[#EFBF04] text-black font-semibold px-3 py-1 rounded-lg shadow-md hover:bg-[#FFD700] transition"
         >
-          <Phone className="inline-block mr-2" />
+          <FaWhatsapp className="inline-block mr-2" />
           WhatsApp
         </a>
 
