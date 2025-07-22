@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Cinzel, Cinzel_Decorative, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/Navbar";
-import { HeroSection } from "@/components/HeroSection";
-import { Footer } from "@/components/Footer";
 
 const cinzel = Cinzel({
   variable: "--font-cinzel",
@@ -31,10 +28,7 @@ export default function RootLayout({
       <body
         className={`${cinzel.variable} ${cinzelDecorative.variable} antialiased`}
       >
-        <Navbar/>
-        <HeroSection/>
         {children}
-        <Footer/>
       </body>
     </html>
   );
