@@ -1,4 +1,7 @@
 import { EquipeCard } from "@/components/EquipeCard";
+import { Footer } from "@/components/Footer";
+import { HeroSection } from "@/components/HeroSection";
+import { Navbar } from "@/components/Navbar";
 
 interface Membro {
   id: number;
@@ -24,6 +27,9 @@ const equipeData: Membro[] = [
 
 export default function Equipe() {
   return (
+    <>
+    <Navbar/>
+    <HeroSection/>
     <section className="max-w-7xl mx-auto -mt-20 px-6 py-20">
       <h1 className="text-4xl font-semibold text-[#EFBF04] mb-12 text-center">
         Fale comigo agora e garanta já o seu benefício previdenciário
@@ -43,5 +49,7 @@ export default function Equipe() {
         ))}
       </div>
     </section>
+    <Footer/>
+    </>
   );
 }

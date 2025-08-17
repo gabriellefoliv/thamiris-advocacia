@@ -2,6 +2,9 @@
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Image from "next/image";
+import { Navbar } from "@/components/Navbar";
+import { HeroSection } from "@/components/HeroSection";
+import { Footer } from "@/components/Footer";
 
 const templateKey: string = process.env.TEMPLATE_KEY || '';
 const serviceKey: string = process.env.SERVICE_KEY || '';
@@ -25,7 +28,10 @@ export default function Contato() {
   };
 
   return (
-    <div className="min-h-screen bg-white -mt-20 flex items-center justify-center py-20 px-6">
+    <>
+    <Navbar/>
+    <HeroSection/>
+    <div className="min-h-screen bg-white -mt-32 flex items-center justify-center py-20 px-6">
       <div className="max-w-6xl w-full bg-white rounded-2xl shadow-xl flex flex-col md:flex-row items-center md:items-start gap-12 p-10">
         
         {/* Imagem OAB */}
@@ -127,5 +133,7 @@ export default function Contato() {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }

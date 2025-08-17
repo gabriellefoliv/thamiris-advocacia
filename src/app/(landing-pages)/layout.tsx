@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "Perdeu alguém querido? Não perca também o seu direito à pensão por morte. Fale com quem entende do assunto!",
 };
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: Readonly<{
   children: React.ReactNode;

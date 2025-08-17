@@ -1,10 +1,15 @@
 "use client";
 
+import { Footer } from "@/components/Footer";
+import { HeroSection } from "@/components/HeroSection";
+import { Navbar } from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function DireitoPrevidenciario() {
-  return (
+  return (<>
+      <Navbar/>
+      <HeroSection/>
     <main className="min-h-screen bg-white text-black px-6 py-16 max-w-7xl mx-auto -mt-16">
       <h1 className="text-4xl font-semibold text-[#EFBF04] mb-12 text-center">
         Conheça o Direito Previdenciário
@@ -40,5 +45,6 @@ export default function DireitoPrevidenciario() {
         </div>
       </div>
     </main>
-  );
+      <Footer/>
+ </> );
 }
